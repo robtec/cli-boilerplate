@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	
 	app := cli.NewApp()
 	app.Name = "My Cli Example"
 	app.Usage = "Demo of urfave Cli Sweetness!"
