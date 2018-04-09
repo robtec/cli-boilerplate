@@ -5,3 +5,7 @@ A boiler plate project for the popular `github.com/urfave/cli` previously `codeg
 ## Install
 
 `go get github.com/robtec/cli-boilerplate`
+
+## Build
+
+Run `make`
