@@ -5,9 +5,9 @@ all: clean build
 
 clean:
 	@echo ">> cleaning..."
-	@rm cli-boilerplate
+	@rm -f cli-boilerplate
 
-build:
+build: clean
 	@echo ">> building..."
 	@echo "Commit: $(COMMIT_ID)"
 	@echo "Version: $(VERSION)"
