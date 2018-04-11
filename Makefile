@@ -13,4 +13,7 @@ build: clean
 	@echo "Version: $(VERSION)"
 	@go build -ldflags "-X main.Version=$(VERSION) -X main.CommitId=$(COMMIT_ID)"
 
-.PHONY: all clean build
+install:
+	@go install -ldflags "-X main.Version=$(VERSION) -X main.CommitId=$(COMMIT_ID)"
+
+.PHONY: all clean build install
